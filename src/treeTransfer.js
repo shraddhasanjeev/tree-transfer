@@ -224,7 +224,7 @@ class TreeTransfer extends Component {
       <div className={treeTransferClass}>
         <div className="tree-transfer-panel tree-transfer-panel-left">
           <div className="tree-transfer-panel-header">
-            <span className="tree-transfer-panel-header-select">{`${treeCheckedKeys.length > 0 ? `${treeCheckedKeys.length}/` : ''}${leafKeys.length}`} 条数据</span>
+            <span className="tree-transfer-panel-header-select">{`${treeCheckedKeys.length > 0 ? `${treeCheckedKeys.length}/` : ''}${leafKeys.length}`} items</span>
             <span className="tree-transfer-panel-header-title">{sourceTitle}</span>
           </div>
           <div className={treeTransferPanelBodyClass}>
@@ -246,7 +246,7 @@ class TreeTransfer extends Component {
         <div className="tree-transfer-panel tree-transfer-panel-right">
           <div className="tree-transfer-panel-header">
             <Checkbox {...listHeaderCheckProps} />
-            <span className="tree-transfer-panel-header-select">{`${listCheckedKeys.length > 0 ? `${listCheckedKeys.length}/` : ''}${listData.length}`} 条数据</span>
+            <span className="tree-transfer-panel-header-select">{`${listCheckedKeys.length > 0 ? `${listCheckedKeys.length}/` : ''}${listData.length}`} items</span>
             <span className="tree-transfer-panel-header-title">{targetTitle}</span>
           </div>
           <div className={treeTransferPanelBodyClass}>
